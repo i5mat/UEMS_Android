@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:id="@+id/studID5"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="177dp"
+        android:gravity="center"
+        android:text=" Matric No. :" />
+
+    <TextView
+        android:id="@+id/studID6"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="106dp"
+        android:gravity="center"
+        android:text="Name :" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Attendance"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="369dp" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnScan"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/studName"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="78dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/studMatric"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/studEmail"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="-38dp"
+        android:layout_marginEnd="-36dp"
+        android:layout_marginBottom="215dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/studPoint"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="279dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/studID"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="-204dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/studID2"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="-176dp"
+        android:gravity="center"
+        android:text=" User ID :" />
+
+    <TextView
+        android:id="@+id/studID3"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="304dp"
+        android:gravity="center"
+        android:text="Points :" />
+
+    <TextView
+        android:id="@+id/studID4"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnScan"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnScan"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="241dp"
+        android:gravity="center"
+        android:text=" Email :" />
+
+    <Button
+        android:id="@+id/btnEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnScan"
+        android:layout_alignBottom="@+id/btnLogout"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="-61dp"
+        android:onClick="goEventList"
+        android:text="Events" />
+
+</RelativeLayout>
